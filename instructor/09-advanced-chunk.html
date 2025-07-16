@@ -20,7 +20,7 @@
       <div class="large-logo">
         <img id="incubator-logo" alt="Lesson Description" src="../assets/images/incubator-logo.svg"><span class="badge text-bg-warning">
           <abbr title="This lesson is in the alpha phase, which means that it has been taught once and lesson authors are iterating on feedback.">
-            <a href="https://cdh.carpentries.org/the-lesson-life-cycle.html#field-testing-alpha-stage" class="external-link alert-link">
+            <a href="https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html" class="external-link alert-link">
               <i aria-hidden="true" class="icon" data-feather="alert-triangle" style="border-radius: 5px"></i>
               Alpha
             </a>
@@ -289,7 +289,6 @@
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
         <ul><li><a href="#quarto-projects">Quarto Projects</a></li>
-<li><a href="#section"></a></li>
 <li><a href="#set-working-directory-in-quarto-documents">Set Working Directory in Quarto Documents</a></li>
 <li><a href="#run-code-from-an-external-script-in-a-code-chunk">Run Code from an External Script in a Code Chunk</a></li>
         </ul></div><!--/div.accordion-body-->
@@ -410,7 +409,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Advanced Code Chunk Options</h1>
-        <p>Last updated on 2025-02-24 |
+        <p>Last updated on 2025-07-16 |
 
         <a href="https://github.com/carpentries-incubator/reproducible-publications-quarto/edit/main/episodes/09-advanced-chunk.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -488,9 +487,6 @@ documents in the project.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="section"></h2>
-<hr class="half-width"><p>FIXME Add an example of how to use “_quarto.yml” to change style
-options in our paper.</p>
 </section><section><h2 class="section-heading" id="set-working-directory-in-quarto-documents">Set Working Directory in Quarto Documents<a class="anchor" aria-label="anchor" href="#set-working-directory-in-quarto-documents"></a></h2>
 <hr class="half-width"><p>Okay, remember how we changed the file path in the code chunk we
 copied into our document to correct the relative path for reading the
@@ -584,22 +580,16 @@ and take a look.</p>
 <p>Our plot should look exactly the same as the first copy-pasted
 one.</p>
 <p>Success! You’ll notice that the global code chunk options were also
-applied to this code chunk.*.</p>
-<ul><li>Note: As of November 2023, Quarto has not implemented global options
-for <code>results</code>. This will need to be added to each code chunk
-if needed until further notice.</li>
-</ul><div id="tip-many-ways-to-run-external-code" class="callout">
+applied to this code chunk.</p>
+<div id="tip-many-ways-to-run-external-code" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="tip-many-ways-to-run-external-code" class="callout-inner">
 <h3 class="callout-title">Tip: Many ways to run external code</h3>
 <div class="callout-content">
-<p>There are at least 3-4 methods one can use to run external code; the
-best choice may depend on the context or your personal preference.
-There’s no method that’s a clear winner because there’s an awkward quirk
-or another to each of them, but better than copy/pasting code from
-elsewhere in your project (in our humble opinion):</p>
+<p>There are other methods one can use to run external code. The best
+choice may depend on the context or your personal preference:</p>
 <ol style="list-style-type: decimal"><li>source() – <a href="https://bookdown.org/yihui/rmarkdown-cookbook/source-script.html" class="external-link">see
 more at bookdown.org</a>
 </li>
@@ -705,7 +695,7 @@ data to make your document more efficient.</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.11" class="external-link">sandpaper (0.16.11)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.5" class="external-link">varnish (1.0.5)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.12" class="external-link">sandpaper (0.16.12)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.6" class="external-link">varnish (1.0.6)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -716,10 +706,10 @@ data to make your document more efficient.</li>
   <script type="application/ld+json">
     {
   "@context": "https://schema.org",
-  "@type": "TrainingMaterial",
+  "@type": "LearningResource",
   "@id": "https://carpentries-incubator.github.io/reproducible-publications-quarto/instructor/09-advanced-chunk.html",
   "inLanguage": "en",
-  "dct:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
+  "dct:conformsTo": "https://bioschemas.org/profiles/LearningResource/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
   "keywords": "software, data, lesson, The Carpentries",
   "name": "Advanced Code Chunk Options",
@@ -727,8 +717,8 @@ data to make your document more efficient.</li>
   "url": "https://carpentries-incubator.github.io/reproducible-publications-quarto/instructor/09-advanced-chunk.html",
   "identifier": "https://carpentries-incubator.github.io/reproducible-publications-quarto/instructor/09-advanced-chunk.html",
   "dateCreated": "2021-12-01",
-  "dateModified": "2025-02-24",
-  "datePublished": "2025-02-24"
+  "dateModified": "2025-07-16",
+  "datePublished": "2025-07-16"
 }
 
   </script><script>
